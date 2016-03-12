@@ -6,6 +6,7 @@ Classic Snake Game in Javascript and jQuery
 
 # Libraries and Frameworks
 - jQuery 2.1.1
+- Rack framework
 
 # How to Setup
 - Download package

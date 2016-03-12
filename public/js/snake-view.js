@@ -29,7 +29,7 @@
 
     this.$el.html(html);
   }
-  View.TIMEINTERVAL = 250;
+  View.TIMEINTERVAL = 140;
   View.prototype.start = function(){
     console.log("start");
     this.render();
@@ -79,8 +79,8 @@
       this.render();
     }else{
       window.clearInterval(this.interval);
-      $(".game").append("<div class='restart'><h2>Game Over\n "+
-            " Press Any Key to Play Again</h2></div>");
+      $(".game").append("<div class='restart'><h2>Game Over</h2> "+
+            "<h2>Press Any Key to Play Again</h2></div>");
     }
   }
 

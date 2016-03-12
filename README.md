@@ -11,3 +11,9 @@ Classic Snake Game in Javascript and jQuery
 # How to Setup
 - Download package
 - open index.html in browser
+
+#How to Run on Rack
+- Download package
+- run `bundle install`
+- cd into directory and run `rackup`
+- Go to browser and open `http://localhost:9292`

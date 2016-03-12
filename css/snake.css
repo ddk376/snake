@@ -1,0 +1,47 @@
+html, body, figure, ul, li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+}
+
+body{
+  background-color: black;
+}
+h1, h2{
+  text-align: center;
+  color: grey;
+}
+ul{
+  list-style: none;
+}
+ ul:after{
+   content: "";
+   clear: both;
+   display : block;
+ }
+
+ li{
+   float: left;
+   width: 16px;
+   height: 16px;
+ }
+.game {
+  position: relative;
+  margin: auto;
+  width: 330px;
+}
+figure {
+  display: block;
+  border: 5px solid grey;
+}
+
+.apple{
+  background-color: red;
+}
+
+.snakeSeg{
+  background-color: green;
+}

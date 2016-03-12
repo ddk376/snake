@@ -1,6 +1,6 @@
 # Snake Javascript Game
 Classic Snake Game in Javascript and jQuery
-
+[Live](https://snake-browser-game.herokuapp.com/)
 # Enviornment
 - Rails 4.2.4
 

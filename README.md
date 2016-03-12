@@ -1,7 +1,7 @@
 # Snake Javascript Game
 Classic Snake Game in Javascript and jQuery
 
-[Live](https://snake-browser-game.herokuapp.com/)
+[Live](https://snake-browser-game.herokuapp.com/) (works in Firefox but not in Chrome)
 
 # Enviornment
 - Rails 4.2.4
@@ -18,4 +18,4 @@ Classic Snake Game in Javascript and jQuery
 - Download package
 - run `bundle install`
 - cd into directory and run `rackup`
-- Go to browser(works in Firefox but not in Chrome) and open `http://localhost:9292`
+- Go to browser and open `http://localhost:9292`
